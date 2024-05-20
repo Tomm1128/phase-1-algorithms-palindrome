@@ -33,8 +33,11 @@ function isPalindrome(word) {
 
 /*
   Add written explanation of your solution here
+  I first started with breaking the string into an array of characters using the split() method.
 
-  
+  Then I reversed the array using reverse() method and joined the chars in the array back into the string using join() method. 
+
+  Next I just return the boolean expression comparing the reversed word with the original word. This boolean expression will either evaluate to true or false which is why I am just returning the expression. 
 */
 
 // You can run `node index.js` to view these console logs
